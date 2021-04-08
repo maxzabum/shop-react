@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Pridi:wght@300;600&display=swap");
+ul {
+  list-style-type: none;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bucketBorder {
+  width: 200px;
+  height: 100%;
+
+  /* justify-content: space-between; */
+}
+.flex-end {
+  align-self: flex-end;
+}
+.test {
+  justify-content: space-between;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justify-cen {
+  justify-content: center;
+  align-items: center;
+}
+.d-flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+.foot-cont {
+  display: flex;
+  justify-content: center;
+}
+.text-foot {
+  font-family: "Pridi", serif;
+}
+.w-300 {
+  font-weight: 300;
+}
+.w-600 {
+  font-weight: 600;
+}
+.w-900 {
+  font-weight: 600;
+}
+.red {
+  color: tomato;
+}
+.gray {
+  color: gray;
+}
+
+.green {
+  color: green;
+}
+.style-box {
+  background-color: rgba(218, 214, 214, 0.781);
+  margin: 10px;
+  padding: 5px 20px 5px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 68px -24px rgba(100, 100, 100, 0.05);
+  -webkit-box-shadow: 8px 8px 68px -24px rgba(100, 100, 100, 0.05);
+  -moz-box-shadow: 8px 8px 68px -24px rgba(100, 100, 100, 0.05);
+}
+.alert {
+  padding: 20px;
+  background-color: #7bf777;
+  color: white;
+}
+.noAlert {
+  background-color: #f4433600;
+  padding: 0px;
+  color: #f4433600;
+}
+.box-order {
+  background-color: rgba(218, 214, 214, 0.171);
+  margin: 10px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 8px 8px 68px -24px rgba(100, 100, 100, 0.05);
+  -webkit-box-shadow: 8px 8px 68px -24px rgba(100, 100, 100, 0.05);
+  -moz-box-shadow: 8px 8px 68px -24px rgba(100, 100, 100, 0.05);
+}
+.box-order ul {
+  padding: 0px 10px 0px;
+}
+.box-order > p {
+  font: 1rem "Pridi", serif;
+  margin: 0px;
+}
+.box-order li p {
+  font: 0.8rem "Pridi", serif;
+  margin: 0px;
+}
+/* .closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+} */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .mob {
+    justify-content: flex-start;
+  }
+}
