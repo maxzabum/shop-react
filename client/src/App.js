@@ -6,16 +6,9 @@ import Header from "./components/Header";
 import About from "./container/About";
 import Product from "./container/product/Product";
 import Order from "./container/order/Order";
-// import Footer from "./components/Footer";
-// import Header from "./components/Header";
-// import ProductItem from "./components/products/ProductItem";
-// import Monitor from "./components/monitor/Monitor";
 import "./App.css";
 import NotFound from "./container/error/NotFound";
-// import ProductEdit from "./container/product/ProductEdit";
 import ProductForm from "./components/forms/productform/ProductForm";
-// import axios from "axios";
-// import Axios from "axios";
 export default class App extends Component {
   renderRoute() {
     return (
@@ -37,7 +30,7 @@ export default class App extends Component {
         <BrowserRouter>
             <Header />
             {this.renderRoute()}
-             <Footer companyName="One Geo Survey" copyRight="bump@ogs" />
+             <Footer companyName="Bump Company" copyRight="bump@khamriang" />
         </BrowserRouter>
       </div>
     );
